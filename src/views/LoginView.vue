@@ -123,6 +123,6 @@ export default {
 .redColor {
   width: 400px;
   color: hsla(160, 100%, 37%, 1);
-  margin-top: 28vh;
+  margin-top: 20vh;
 }
 </style>
