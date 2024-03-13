@@ -121,8 +121,18 @@ export default {
 
 <style scoped>
 .redColor {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   color: hsla(160, 100%, 37%, 1);
   margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+@media (max-width: 767.98px) {
+  .redColor {
+    margin-top: 10vh;
+    padding: 0 15px;
+  }
 }
 </style>
